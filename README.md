@@ -83,9 +83,7 @@ CCFLAGS = -DINTOX -DINTOX_ADDRESS=127.0.0.1 -DINTOX_PORT=12345
 Les ports courants sont: **12301**, **12341**, ou **12345**.
 
 Pour vérifier le port utilisé par le simulateur:
-ils sont dit au lancement du .jar
-
-Modifier le port dans `src/Makefile` ligne 41 si nécessaire, puis recompiler.
+Les ports disponibles sont affichés au lancement du .jar
 
 ## Compilation
 
