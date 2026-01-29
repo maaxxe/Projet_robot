@@ -91,13 +91,13 @@ Depuis le répertoire `RM_Final/src/`:
 
 ```bash
 # Compiler le projet
-make
+make all
 
 # Nettoyer les fichiers compilés
 make clean
 
 # Recompiler complètement
-make clean && make
+make clean all
 ```
 
 L'exécutable sera généré dans `../bin/go`.
@@ -159,6 +159,9 @@ L'application offre plusieurs modes de contrôle:
 2. **Mode suivi de mur (option 7)**:
    - Le robot suit automatiquement le mur à sa droite
    - Appuyer sur 't' ou 'T' pour arrêter et revenir au menu
+  
+3. **Suivi du mur a droite (option 1)**:
+   - Permet au Robot de sortir du labirynte en suivant le mur droite
 
 3. **Quitter (option 0)**:
    - Ferme proprement l'application
